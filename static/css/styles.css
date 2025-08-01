@@ -1,0 +1,44 @@
+/* Base typography & spacing */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Table row hover */
+.table-hover tbody tr:hover {
+  background-color: #e9f5ff;
+}
+
+/* Wizard Navigation */
+.wizard-nav .step {
+  flex: 1;
+  text-align: center;
+  padding: 0.5rem;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: 500;
+  color: #6c757d;
+}
+.wizard-nav .step.active {
+  border-bottom-color: #0d6efd;
+  color: #0d6efd;
+}
+
+/* Wizard Steps */
+.wizard-step {
+  display: none;
+}
+.wizard-step-active {
+  display: block;
+}
+
+/* Next/Prev Buttons */
+.next-btn, .prev-btn {
+  min-width: 100px;
+}
+.next-btn {
+  float: right;
+}
+.prev-btn {
+  float: left;
+}
+

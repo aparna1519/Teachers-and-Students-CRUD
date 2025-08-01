@@ -1,0 +1,85 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# Virtual Environments
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+.Python
+
+# SQLite / Database
+*.sqlite3
+*.db
+
+# ----------------------
+# Django
+# ----------------------
+*.log
+local_settings.py
+
+# Ignore only __pycache__ inside migrations, NOT the actual migrations
+*/migrations/__pycache__/
+
+# ----------------------
+# Static and Media Files
+# ----------------------
+staticfiles/
+media/
+
+# ----------------------
+# IDEs and Editors
+# ----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------
+# OS Generated Files
+# ----------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ----------------------
+# Sensitive Data
+# ----------------------
+.env
+*.key
+
+# ----------------------
+# Testing / Coverage
+# ----------------------
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+.pytest_cache/
+.cache/
+
+# ----------------------
+# Packaging / Build
+# ----------------------
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# ----------------------
+# mypy
+# ----------------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
